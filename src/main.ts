@@ -23,6 +23,9 @@ if (import.meta.env.DEV) {
   import('ant-design-vue/dist/antd.less');
 }
 
+const a = 'xixixixi';
+console.log(a);
+
 async function bootstrap() {
   const app = createApp(App);
 
